@@ -24,6 +24,16 @@
             background: #F4FAFD;
 
         }
+        .left-1{
+            top: 50%;
+            left: -3%;
+            background: #E5F6FF;
+            
+        }
+        .right-1{
+            top: 50%;
+            right: -3%;
+        }
     </style>
 </head>
 <body>
@@ -272,7 +282,7 @@
             <h2 class="fs-2 fw-semibold text-capitalize">meet our successful <br>students</h2>
             <p class="text-secondary mt-3">It is a long established fact that a reader will be distracted by <br>the readable content of a page when looking at its layout.</p>
             <div class="row justify-content-center mt-4">
-                <div class="col-12 col-md-6 col-lg-3 mt-2">
+                <div class="col-12 col-md-6 col-lg-3 mt-2 d-none d-mdblock d-lg-block">
                     <div class="card">
                         <img src="./resources/student/student-1.png" class="card-img-top" alt="#">
                         <div class="card-body">
@@ -307,11 +317,59 @@
                           <p class="card-text text-secondary">Web developer</p>
                         </div>
                     </div>
-                </div>
-                  
+                </div>   
             </div>
+            <button class="btn btn-primary mt-3 d-block mx-auto">View all</button>
         </section>
     <!-- SUCCESS STORY ENDS -->
+    <!-- FEEDBACK STARTS -->
+        <section class="container mt-5">
+            <h1 class="fw-semibold text-capitalize text-center mt-5">some students feedback</h1>
+            <p class="mt-3 text-secondary text-center">It is a long established fact that a reader will be distracted by the readable <br>content of a page when looking at its layout.</p>
+            <div class="row mt-4">
+                <div class="col-12 col-lg-6">
+                    <div class="border border-1 rounded-2 p-4 position-relative">
+                        <div class="d-flex justify-content-between">
+                            <i class="fa-solid fa-quote-right fs-1 text-secondary"></i>
+                            <div>
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star-half text-warning"></i>
+                            </div>
+                        </div>
+                        <p class="text-secondary mt-4">
+                            There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem.
+                        </p>
+                        <p class="fw-semibold text-capitalize">awlad hossain <br>
+                        <span class="text-secondary">UI designer</span></p>
+                        <button class="btn text-primary rounded-circle position-absolute left-1"><i class="fa-solid fa-arrow-left-long"></i></button>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6 mt-4 mt-lg-0">
+                    <div class="border border-1 rounded-2 p-4 position-relative">
+                        <div class="d-flex justify-content-between">
+                            <i class="fa-solid fa-quote-right fs-1 text-secondary"></i>
+                            <div>
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star-half text-warning"></i>
+                            </div>
+                        </div>
+                        <p class="text-secondary mt-4">
+                            There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem.
+                        </p>
+                        <p class="fw-semibold text-capitalize">awlad hossain <br>
+                        <span class="text-secondary">UI designer</span></p>
+                        <button class="btn btn-primary rounded-circle position-absolute right-1"><i class="fa-solid fa-arrow-right"></i></button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    <!-- FEEDBACK ENDS -->
     </main>
 <!-- MAIN ENDS -->
     <!-- JS BUNDLE -->
